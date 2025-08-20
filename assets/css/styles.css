@@ -15,93 +15,6 @@ body {
 }
 
 /*********************************************************************
-                            Navigation in header
-**********************************************************************/
-.navbar {
-  border-width: 1px 0;
-  border-radius: 0;
-  background-clip: padding-box;
-  width: 100%;
-}
-
-.navbar.stick {
-  position: fixed;
-  top: 0;
-  left: 0;
-  opacity: .85;
-}
-
-.navbar-collapse {
-  border-radius: 0;
-  background-clip: padding-box;
-  font-family: "Open sans", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  text-transform: uppercase;
-}
-
-.navbar-collapse .navbar-nav {
-  float: none;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.navbar-collapse .navbar-nav>li {
-  float: none;
-  display: inline-block;
-}
-
-.navbar-collapse .navbar-nav>li>a {
-  padding: 20px 30px;
-}
-
-.navbar-default {
-  background-color: #ffffff;
-  border-color: #cccccc;
-}
-
-.navbar-default .navbar-nav>li>a {
-  color: #454545;
-}
-
-.navbar-default .navbar-nav>li>a:hover,
-.navbar-default .navbar-nav>li>a:focus {
-  color: #000000;
-  background-color: #ffffff;
-}
-
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
-  color: #000000;
-  background-color: #ffffff;
-}
-
-.navbar-default .navbar-toggle {
-  border-color: #666666;
-}
-
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: #ffffff;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #333333;
-}
-
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: #cccccc;
-}
-
-.navbar-default .navbar-nav>.open>a,
-.navbar-default .navbar-nav>.open>a:hover,
-.navbar-default .navbar-nav>.open>a:focus {
-  background-color: #ffffff;
-  color: #000000;
-}
-
-/*********************************************************************
                                 TYPOGRAPHY
 **********************************************************************/
 p {
@@ -145,6 +58,11 @@ h2 {
 h4 {
   font-size: 24px;
   font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 a {
@@ -246,6 +164,9 @@ a:hover {
                                 CONTENT
 **********************************************************************/
 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 100%;
 }
 
@@ -449,7 +370,6 @@ img {
   left: 100%;
   margin-left: 45px;
 }
-
 /*********************************************************************
                                 FOOTER
 **********************************************************************/
